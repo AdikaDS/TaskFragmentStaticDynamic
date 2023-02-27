@@ -8,20 +8,20 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FragmentDeskripsi extends Fragment {
+public class SimpleFragment extends Fragment {
 
-    public FragmentDeskripsi() {
+    public SimpleFragment() {
         // Required empty public constructor
     }
 
-  public static FragmentDeskripsi newInstance(String param1, String param2) {
-        return new FragmentDeskripsi();
+  public static SimpleFragment newInstance() {
+        return new SimpleFragment();
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_deskripsi, container, false);
+        return inflater.inflate(R.layout.simple_fragment, container, false);
     }
 }
