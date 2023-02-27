@@ -4,8 +4,10 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/drawable/btn_style.xml" value="0.183" />
-        <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/layout/activity_main.xml" value="0.15816326530612246" />
         <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/layout/fragment_deskripsi.xml" value="0.17552083333333332" />
+        <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/layout/fragment_kelebihan.xml" value="0.17447916666666666" />
+        <entry key="..\:/Tugas Kuliah/Semester 3/PPPB/TaskFragmentStaticDynamic/app/src/main/res/layout/simple_fragment.xml" value="0.17552083333333332" />
       </map>
     </option>
   </component>

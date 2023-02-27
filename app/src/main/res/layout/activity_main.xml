@@ -21,8 +21,8 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <fragment
-        android:id="@+id/fragment"
-        android:name="com.example.taskfragmentstaticdynamic.FragmentDeskripsi"
+        android:id="@+id/fragment_container"
+        android:name="com.example.taskfragmentstaticdynamic.SimpleFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
@@ -31,7 +31,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_judul"
-        tools:layout="@layout/fragment_deskripsi" />
+        tools:layout="@layout/simple_fragment" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_more"
