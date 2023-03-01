@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mButton = findViewById(R.id.btn_more);
-
+        text = findViewById(R.id.tv_isi);
 
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 .beginTransaction();
 
         fragmentTransaction.replace(R.id.fragment,
-                simpleFragment).addToBackStack(null).commit();
-        text = findViewById(R.id.tv_isi);
+                simpleFragment).commit();
         text.setText(R.string.kelebihan);
         mButton.setText(R.string.confirm);
         isFragmentDisplayed = true;
@@ -62,7 +61,6 @@ public class MainActivity extends AppCompatActivity {
             fragmentTransaction.replace(R.id.fragment,simpleFragment).commit();
         }
         // Update Tulisan Button dan Tulisan Isi
-        text = findViewById(R.id.tv_isi);
         text.setText(R.string.deskripsi);
         mButton.setText(R.string.more);
         // Set boolean flag to indicate fragment is closed.
